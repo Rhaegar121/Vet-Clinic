@@ -27,6 +27,8 @@ ALTER TABLE animals DROP COLUMN species;
 ALTER TABLE animals ADD COLUMN species_id INT REFERENCES species(id);
 ALTER TABLE animals ADD COLUMN owners_id INT REFERENCES owners(id);
 
+
+/* Day 4 */
 CREATE TABLE vets(
 id SERIAL PRIMARY KEY,
 name VARCHAR(250),
