@@ -33,4 +33,8 @@ name VARCHAR(250),
 age INT,
 date_of_graduation DATE
 );
+CREATE TABLE specializations(
+vets_id INT REFERENCES vets (id),
+species_id INT REFERENCES species (id)
+);
 
