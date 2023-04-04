@@ -1,3 +1,5 @@
+CREATE DATABASE clinic;
+
 CREATE TABLE patients (
   id INT PRIMARY KEY,
   name VARCHAR(250),
