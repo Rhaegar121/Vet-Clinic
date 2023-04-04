@@ -28,6 +28,8 @@
 
 **[Vet_clinic]** is a postgreSQL database project.
 
+<img src="vet_clinic diagram.png" alt="vet clinic database schema diagram">
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
