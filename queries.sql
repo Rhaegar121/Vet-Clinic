@@ -108,7 +108,7 @@ GROUP BY visits.animals_id, vets.name
 ORDER BY COUNT(visits.animals_id) DESC
 LIMIT 1;
 
-/* What specialty should Maisy Smith consider getting? Look for the species she gets the most. */
+/* What specialty should Maisy Smith consider getting? Look for the species she gets the most */
 SELECT species.name AS species_name, vets.name AS vet_name, COUNT(*) AS numbers_of_visits
 FROM vets
 JOIN visits ON vets.id = visits.vets_id

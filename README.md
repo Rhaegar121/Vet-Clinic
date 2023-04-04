@@ -1,19 +1,3 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -43,6 +27,8 @@ This repository includes files with plain SQL that can be used to recreate a dat
 # 📖 [Vet_clinic] <a name="about-project"></a>
 
 **[Vet_clinic]** is a postgreSQL database project.
+
+<img src="vet_clinic diagram.png" alt="vet clinic database schema diagram">
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -104,9 +90,7 @@ This is just a repo for database commands and query.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[query_multiple_tables.]**
-- [ ] **[add_"join_table"_for_visits.]**
-- [ ] **[database_performance_audit]**
+- [ ] **[add_database_schema_diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
