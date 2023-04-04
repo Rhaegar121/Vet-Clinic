@@ -1,4 +1,10 @@
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a>
+
+<div>
+
+  <h1><b>Vet Clinic</b></h1><br/><br/>
+
+</div>
 
 # 📗 Table of Contents
 
@@ -8,12 +14,10 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Setup](#setup)
+  - [Create the database](#Create-the-database)
+  - [Connect to the database](#Connect-to-the-database)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -61,7 +65,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[database_performance_audit]**
+- **[Create_a_database_based_on_a_diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,83 +73,52 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> To get a local copy up and running, follow these steps.
 
-To get a local copy up and running, follow these steps.
+- Create a local directory where you can clone the project
+- Clone the project to your directory by running
+- git clone `https://github.com/Rhaegar121/Vet-Clinic.git`
+- Run all the command in the terminal or pgAdmin.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Git and GitHub
+- A code editor
+- PostgresSQL
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Rhaegar121/Vet-Clinic.git
 ```
---->
 
-### Install
+### Create the database
 
-Install this project with:
+```sh
+    CREATE DATABASE vet_clinic;
+```
 
 <!--
 Example command:
 
-```sh
-  cd my-project
-  gem install
-```
 --->
 
-### Usage
+### Connect to the database
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+ \c vet_clinic
 ```
---->
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,6 +132,11 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/20Rhaegar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
 
+👤 **Mohi**
+
+- GitHub: [@mohisa302](https://github.com/mohisa302)
+- Twitter: [@Kholochelam](https://twitter.com/Kholochelam)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mohadese-sadeghi-692551199/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
