@@ -40,3 +40,6 @@ CREATE TABLE invoice_items (
     invoice_id INT REFERENCES invoices(id),
     treatment_id INT REFERENCES treatments(id)
 );
+
+/* Add foreign key indexes */
+CREATE INDEX patient_id_idx ON patients(id);
