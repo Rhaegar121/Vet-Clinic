@@ -18,9 +18,16 @@ CREATE TABLE treatments (
 );
 
 CREATE TABLE medical_history_treatments (
-  medical_history_id INT,
-  treatment_id INT,
-  PRIMARY KEY (medical_history_id, treatment_id),
+  id SERIAL not null PRIMARY KEY,
   FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id),
   FOREIGN KEY (treatment_id) REFERENCES treatments(id)
 );
+
+
+CREATE TABLE invoices (
+    id SERIAL not null PRIMARY KEY,
+    total_amount DECIMAL,
+    generated_at TIMESTAMP,
+    payed_at TIMESTAMP,
+    medical_history_id INT REFERENCES medical_histories(id)
+)
